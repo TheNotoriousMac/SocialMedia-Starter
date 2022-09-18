@@ -1,9 +1,10 @@
+import PostShare from "../postShare/PostShare";
 import "./PostSide.styles.css";
 
 const PostSide = () => {
   return (
-    <div>
-        PostSide
+    <div className="PostSide">
+        <PostShare />
     </div>
   );
 };
